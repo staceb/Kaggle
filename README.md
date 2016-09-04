@@ -1,3 +1,12 @@
 # Kaggle
-* [Digit Recognition](https://www.kaggle.com/c/digit-recognizer)
-  * Convolutional Neurual Network (CNN) with Tensorflow
+- [Digit Recognition](https://www.kaggle.com/c/digit-recognizer)
+  - Convolutional Neurual Network (CNN) with Tensorflow
+- [Titanic](https://www.kaggle.com/c/titanic)
+  - [Feature engineering](titanic/frature_engineering.md)
+  - Excel analysis
+  - python
+    - gender-class model
+    - random forest model
+  - R
+    - LR, Boost, RF, SVM model (predict with best model LR)
+    - RF with feature engineering

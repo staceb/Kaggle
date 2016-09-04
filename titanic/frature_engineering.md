@@ -1,0 +1,12 @@
+- Feature engineering
+    - Missing value imputation
+        - Fill missing Age, options are
+            - PClass->Age
+            - Title->Age:
+                - Extract title from name
+                - Fill missing age with the median in group by title
+            - Predict with missing Age with RF
+        - Fill missing Embarked with the most common value ’S'
+    - Correct weird Fare value 0 with the the median in group by class
+    - Merge Family size according to survival rate (single, small, large)
+    - Find Child&Mother for probably ‘Child and women first'
