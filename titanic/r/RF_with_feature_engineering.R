@@ -172,7 +172,7 @@ set.seed(754)
 rf_model <- randomForest(factor(Survived) ~ Pclass + Sex + Age + SibSp + Parch + 
                            Fare + Embarked + Title + 
                            FsizeD + Child + Mother,
-                         data = train)
+                         data = train,ntree=10000)
 
 # Show model error
 plot(rf_model, ylim=c(0,0.36))
