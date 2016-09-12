@@ -5,7 +5,7 @@
   - [Feature engineering](titanic/feature_engineering.md)
   - Excel analysis
   - python
-    - gender-class model
+    - gender-class models
     - random forest model
   - R
     - LR, Boost, RF, SVM model (predict with best model LR)
