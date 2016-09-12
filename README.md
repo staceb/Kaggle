@@ -2,7 +2,7 @@
 - [Digit Recognition](https://www.kaggle.com/c/digit-recognizer)
   - Convolutional Neurual Network (CNN) with Tensorflow
 - [Titanic](https://www.kaggle.com/c/titanic)
-  - [Feature engineering](titanic/README.md)
+  - [FeatureEngineering](titanic/README.md)
   - Excel analysis
   - python
     - gender-class models
